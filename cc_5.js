@@ -21,3 +21,11 @@ const order = {
     }
 };
 order.displayOrder();
+//Task 3: Array Manipulation (push, pop, shift, unshift)
+let cartItems = ["Basketball", "Hoop","Net"];
+cartItems.Items.push("Air Pump");
+cartItems.pop();
+cartItems.unshift("Backboard");
+cartItems.shift();
+
+console.log(cartItems);
