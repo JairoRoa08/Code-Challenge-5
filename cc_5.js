@@ -68,3 +68,7 @@ let discount = 0.01;
 
 console.log('The discounted price is $${applyDiscount(price, discount)}');
 
+// Task 10: Loyalty Points
+const calculatePoints = purchaseAmount => Math.floor(purchaseAmount/10);
+let purchaseAmount= 150;
+console.log('Points earned: ${calculatePoints(purchaseAmount)}');
