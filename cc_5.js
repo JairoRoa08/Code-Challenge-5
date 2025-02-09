@@ -48,3 +48,13 @@ console.log('Total Revenue: $${totalRevenue}');
 let customers = ["Alice","Bob", "Charlie", "David"];
 let foundCustomer = customers.find(customer => customer === "Charlie");
 console.log(foundCustomer);
+
+// Task 8: Function Declaration
+function calculateTax (amount, taxRate) {
+    let tax = amount * taxRate;
+    return tax;
+}
+let amount = 500;
+let taxRate = 0.08;
+
+console.log('The tax on $${amount} at rate of ${taxRate * 100}% is $${calculateTax(amount, taxRate)}');
