@@ -29,3 +29,7 @@ cartItems.unshift("Backboard");
 cartItems.shift();
 
 console.log(cartItems);
+// Task 4: Map Method
+let prices = [100, 200, 300];
+let discountedPrices = prices.map(price => price*0.9);
+console.log(discountedPrices);
