@@ -38,3 +38,8 @@ console.log(discountedPrices);
 let inventory = [5, 0, 12, 8, 0];
 let availableInventory = inventory.filter(quantity => quantity > 0);
 console.log(availableInventory);
+
+//Task 6: Reduce Method
+let sales = [500, 300, 200, 400];
+let totalRevenue = sales.reduce((total, sale) => total + sale,0);
+console.log('Total Revenue: $${totalRevenue}');
