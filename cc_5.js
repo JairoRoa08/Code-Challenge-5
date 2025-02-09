@@ -43,3 +43,8 @@ console.log(availableInventory);
 let sales = [500, 300, 200, 400];
 let totalRevenue = sales.reduce((total, sale) => total + sale,0);
 console.log('Total Revenue: $${totalRevenue}');
+
+//Task 7: find() Method
+let customers = ["Alice","Bob", "Charlie", "David"];
+let foundCustomer = customers.find(customer => customer === "Charlie");
+console.log(foundCustomer);
